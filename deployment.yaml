@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gitops-app
-        image: us-central1-docker.pkg.dev/cc-for-cloud-computing/gitops-repo/gitops-app-repo:b18dc14
+        image: us-central1-docker.pkg.dev/cc-for-cloud-computing/gitops-repo/gitops-app-repo:3aaaf49
         ports:
         - containerPort: 8080
         readinessProbe:
